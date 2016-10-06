@@ -1,21 +1,12 @@
 
 
 aa{
-font-size:30px;
+font-size:25px;
 font-family:cursive;
 font-color:#FF69B4
-background:rgba(0%,10%,20%,0.8);
-}
-/*
-a.fo{
-font-size:20px;
-font-style:fantasy;
+background:rgba(0%,10%,20%,0.7);
 }
 
-a.bg{
-background:rgba(176, 224, 230,0.7);
-}
-*/
 span{
 margin-right:10px;
 border-style:inset;
