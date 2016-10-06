@@ -7,9 +7,12 @@ font-color:#FF69B4
 background:rgba(60%,56%,91%,0.8);
 }
 
-a.f{
+a{
 font-size:20px;
 font-style:fantasy;
+}
+
+a.f{
 background:rgba(#AFEEEE,0.7);
 }
 
