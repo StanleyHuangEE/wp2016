@@ -1,9 +1,10 @@
 
 
 h1{
+text-align:center;
 font-size:30px;
 font-family:cursive;
-font-color:#F08080;
+color:#F08080;
 background:rgba(255,235,205,0.6);
 }
 
