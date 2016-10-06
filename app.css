@@ -1,19 +1,19 @@
 
 
 h1{
-font-size:40px;
+font-size:30px;
 font-family:cursive;
 font-color:#FF69B4
-background:rgba(60%,56%,91%,0.8);
+background:rgba(60 ,56% ,91% ,0.8);
 }
 
-a{
+a.fo{
 font-size:20px;
 font-style:fantasy;
 }
 
-a.f{
-background:rgba(#AFEEEE,0.7);
+a.bg{
+background:rgba(187, 52%, 80% ,0.7);
 }
 
 span{
