@@ -1,6 +1,6 @@
 
 
-h1.title{
+span.title{
   text-align:center;
   font-size:40px;
   font-weight:bolder;
@@ -9,7 +9,7 @@ h1.title{
   background:rgba(255,235,205,0.7);
 }
 
-h2.resume{
+span.resume{
   text-align:left;
   font-size:20px;
   font-family:'Poiret One',cursive;
