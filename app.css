@@ -31,12 +31,12 @@ body.japan{
                     background-size: cover;
 }
 a:link {
-    color: green;
+    color:#0000CD;
         background-color: transparent;
             text-decoration: none;
 }
 a:visited{
-    color:green;
+    color:#0000CD;
         background-color:transparent;
             text-decoration:none;
 }
