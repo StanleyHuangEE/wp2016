@@ -12,7 +12,7 @@ div.title{
   color:IndianRed ;
 }
 
-h2 .pp{
+h2.pp{
     text-align:left;
         font-size:200%;
             font-weight:bold;
@@ -21,7 +21,7 @@ h2 .pp{
                         background:rgba(255, 235, 205,0.7);
 }
 
-h2 .con{
+h2.con{
     text-align:left;
         font-size:200%;
             font-weight:bold;
