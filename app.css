@@ -12,7 +12,7 @@ div.title{
   color:IndianRed ;
 }
 
-h2 .pp .con{
+h2 .pp{
     text-align:left;
         font-size:200%;
             font-weight:bold;
@@ -21,12 +21,15 @@ h2 .pp .con{
                         background:rgba(255, 235, 205,0.7);
 }
 
-p #ppc{
-  font-align:center;
-    font-size:150%;
-      color:black;
-        background:rgba(255,235,205,0.7);
-}
+h2 .con{
+    text-align:left;
+        font-size:200%;
+            font-weight:bold;
+                    font-family:'Poiret One',cursive;
+                                                            color:white;
+                                                                                    background:rgba(255, 235, 205,0.7);
+                                                                                    }                                                                                                                                          
+
 
 span.ref{
     margin-right:10px;
