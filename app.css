@@ -12,7 +12,7 @@ div.title{
   color:IndianRed;
 }
 
-.pp:hover{
+pp:hover{
   color:IndianRed;
 }
 
@@ -20,7 +20,7 @@ div.title{
   color:IndianRed ;
 }
 
-h2.pp{
+pp{
     text-align:left;
         font-size:200%;
             font-weight:bold;
@@ -45,8 +45,8 @@ aa{
           background:rgba(255,235,205,0.7);
 }
 
-button#ppClick{
-    color:red;
+button#ppc{
+
 }
 
 span.ref{
