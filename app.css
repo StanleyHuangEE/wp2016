@@ -45,6 +45,10 @@ h2#ppc{
           background:rgba(255,235,205,0.7);
 }
 
+button#ppClick{
+    color:red;
+}
+
 span.ref{
     margin-right:10px;
         border-style:inset;

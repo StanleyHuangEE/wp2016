@@ -1,7 +1,7 @@
 
 var state;
 $(document).ready(function(){
-$(".pp").click(function() {
+$("#ppClick").click(function() {
   $("#ppc").slideDown("slow",function(){
   });
  });
