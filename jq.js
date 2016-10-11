@@ -1,8 +1,8 @@
  $(document).ready(function(){
-     $("#ppClick").click(function(){
-             $("#ppc").slideUp();
+     $("button").click(function(){
+             $("aa").slideUp();
                  });
-                     $("#ppClick").click(function(){
-                             $("ppc").slideDown();
+                     $("button").click(function(){
+                             $("aa").slideDown();
                                  });
                                  });
