@@ -1,7 +1,7 @@
 
 var state;
-$("#pp" ).click(function() {
-  $( "#ppC" ).animate({
+$(".pp").click(function() {
+  $("#ppc").animate({
       opacity: 0.25,
           left: "+=50",
               height: "toggle"
