@@ -1,8 +1,8 @@
-
-var state;
-$(document).ready(function(){
-$("#ppClick").click(function() {
-  $("#ppc").slideDown("slow",function(){
-  });
- });
- });
+ $(document).ready(function(){
+     $("#ppClick").click(function(){
+             $("#ppc").slideUp();
+                 });
+                     $("#ppClick").click(function(){
+                             $("ppc").slideDown();
+                                 });
+                                 });
