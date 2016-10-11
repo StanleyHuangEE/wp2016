@@ -8,11 +8,7 @@ div.title{
                         background:rgba(34,139,34,0.8);
 }
 
-div .stamp{
-    text-align:right;
-}
-
-span.resume{
+h2.resume{
     text-align:left;
         font-size:30px;
             font-weight:bold;
