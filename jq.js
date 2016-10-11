@@ -1,5 +1,5 @@
 
-
+var state;
 $("#pp" ).click(function() {
   $( "#ppC" ).animate({
       opacity: 0.25,
