@@ -25,11 +25,17 @@ h2.con{
     text-align:left;
         font-size:200%;
             font-weight:bold;
-                    font-family:'Poiret One',cursive;
-                                                            color:white;
-                                                                                    background:rgba(255, 235, 205,0.7);
-                                                                                    }                                                                                                                                          
+                font-family:'Poiret One',cursive;
+                    color:white;
+                        background:rgba(255, 235, 205,0.7);
+                        }                                                                                                                                          
 
+h2#ppc{
+    text-align:center;
+      font-size:150%;
+        color:black;
+          background:rgba(255,235,205,0.7);
+}
 
 span.ref{
     margin-right:10px;
