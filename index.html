@@ -25,19 +25,16 @@ $(document).ready(function(){
     stateP = (stateP==0?1:0);
 });  
 
-var stateC=0;
 $(document).ready(function(){
     $(".cc").slideUp();
-    if(stateC==1){
-        $(".ccc").click(function(){
+        $(".ccc").mouseover(function(){
             $(".cc").slideUp();
         });
-    }
-    else{
-        $(".ccc").click(function(){
+    
+        $(".ccc").mouseout(function(){
             $(".cc").slideDown();
         });
-    }
+    
 });
 </script>
 
