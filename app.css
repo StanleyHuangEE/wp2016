@@ -34,13 +34,17 @@ h2.contact{
                         background:rgba(255, 235, 205,0.7);
                         }                                                                                                                                          
 
-aa{
+h2.pp{
     text-align:center;
       font-size:150%;
-        color:black;
-          background:rgba(255,235,205,0.7);
+        color:IndianRed;
 }
 
+h2.cc{
+    text-align:center;
+      font-size:150%;
+        color:IndianRed;
+}
 button:focus{
     outline:none;
 }

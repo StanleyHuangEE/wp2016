@@ -10,20 +10,36 @@
 var stage=0;
 
 $(document).ready(function(){
-    $("aa").slideUp();
+    $("pp").slideUp();
     if(stage==1){
         $(".ppc").click(function(){
-            $("aa").slideUp();
+            $("pp").slideUp();
         });
         stage=0;
     }
     if(stage==0){
         $(".ppc").click(function(){
-            $("aa").slideDown();
+            $("pp").slideDown();
         });
         stage=1
     }
  });
+
+ $(document).ready(function(){
+     $("cc").slideUp();
+     if(stage==1){
+         $(".ccc").click(function(){
+              $("cc").slideUp();
+         });
+         stage=0;
+     }
+     if(stage==0){
+        $(".ccc").click(function(){
+            $("cc").slideDown();
+        });
+        stage=1
+    }
+});  
                                 </script>
 </head>
 
@@ -33,11 +49,11 @@ $(document).ready(function(){
     <img src="https://github.com/StanleyHuangEE/wp2016/blob/master/badminton_champion.png?raw=true" style="float:left;margin:25px;width:200px;height:200px"><p><p>
     </br></br>
       <p><p>
-        <button class="ppc"><h2 class="personalProfile">Personal Profile.</h2></button>
-        <aa>I'm 黃旭嘉</aa>
+        <button class="ppc"><h2 class="personalProfile">Personal Profile.</h2></button><br>
+        <h2 class="pp">I'm 黃旭嘉</h2>
         
-        <h2 class="contact">Contact</h2><br>
-        
+        <button class="ccc"><h2 class="contact">Contact</h2></button><br>
+        <h2 class="cc">FB:Stanley Huang<br>IG:stanleyhuang_victory</h2>
       </p></p>
         <br><br>
           <span class="ref"><a href="https://www.facebook.com/xujia.huang" target="_blank">here is my Facebook.😎 </a></span><br>
