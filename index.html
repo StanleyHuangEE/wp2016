@@ -7,24 +7,40 @@
                 <script src="jq.js"></script>
                     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <script>
-var stage=0;
+var state=0;
 
 $(document).ready(function(){
     $(".pp").slideUp();
-    if(stage==1){
+    if(state==1){
         $(".ppc").click(function(){
             $(".pp").slideUp();
-            stage=0;
         });
     }
-    if(stage==0){
+    else{
         $(".ppc").click(function(){
             $(".pp").slideDown();
-            stage =1;
         });
+        state = (state==0?1:0);
+        alert(state);
     }
 
 });  
+
+$(document).ready(function(){
+    $(".cc").slideUp();
+    if(state==1){
+        $(".ccc").click(function(){
+            $(".cc").slideUp();
+        });
+    }
+    else{
+        $(".ccc").click(function(){
+            $(".cc").slideDown();
+        });
+        state = (state==0?1:0);
+        alert(state);
+    }
+});
 </script>
 
 </head>
