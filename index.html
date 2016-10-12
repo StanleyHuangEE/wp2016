@@ -11,18 +11,12 @@ var stateP=0;
 
 $(document).ready(function(){
     $(".pp").slideUp();
-    if(stateP==1){
-        $(".ppc").click(function(){
-            $(".pp").slideUp();
-        });
-    }
-    else{
-        $(".ppc").click(function(){
+        $(".personalProfile").mouseover(function(){
             $(".pp").slideDown();
         });
-        alert(stateP);
-    }
-    stateP = (stateP==0?1:0);
+        $(".personalProfile").mouseout(function(){
+            $(".pp").slideUp();
+        });
 });  
 
 $(document).ready(function(){
@@ -32,7 +26,7 @@ $(document).ready(function(){
         });
     
         $(".contact").mouseout(function(){
-            $(".cc").slideOut();
+            $(".cc").slideUp();
         });
     
 });
