@@ -11,14 +11,19 @@ var stage=0;
 
 $(document).ready(function(){
     $("aa").slideUp();
-    $(".ppc").click(function(){
+    if(stage==1){
+        $(".ppc").click(function(){
             $("aa").slideUp();
-                });
-                    $(".ppc").click(function(){
-                            $("aa").slideDown();
-                                });
-                                
-                                });
+        });
+        stage=0;
+    }
+    if(stage==0){
+        $(".ppc").click(function(){
+            $("aa").slideDown();
+        });
+        stage=1
+    }
+ });
                                 </script>
 </head>
 
