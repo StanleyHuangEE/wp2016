@@ -7,32 +7,6 @@
             <link rel="shortcut icon" href="https://raw.githubusercontent.com/StanleyHuangEE/wp2016/master/badmintion.ico"></link>
                 <script src="./jq.js"></script>
                     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-<script>
-var stateP=0;
-
-$(document).ready(function(){
-    $(".pp").slideUp();
-        $(".personalProfile").mouseover(function(){
-            $(".pp").slideDown();
-        });
-        $(".personalProfile").mouseout(function(){
-            $(".pp").slideUp();
-        });
-});  
-
-$(document).ready(function(){
-    $(".cc").slideUp();
-        $(".contact").mouseover(function(){
-            $(".cc").slideDown();
-        });
-    
-        $(".contact").mouseout(function(){
-            $(".cc").slideUp();
-        });
-    
-});
-</script>
-
 </head>
 
 <body class="japan">
@@ -41,20 +15,50 @@ $(document).ready(function(){
     <img src="https://github.com/StanleyHuangEE/wp2016/blob/master/badminton_champion.png?raw=true" style="float:left;margin:25px;width:200px;height:200px"><p><p>
     </br></br>
       <p><p>
-        <h2 class="personalProfile">Personal Profile.</h2><br>
-        <h2 class="pp">I'm 黃旭嘉</h2>
+        <h2 class="personalProfile">Personal Profile.<h2 class="pp">I'm 黃旭嘉</h2></h2>
         
-        <h2 class="contact">Contact</h2><br>
-        <h2 class="cc">FB:Stanley Huang<br>IG:stanleyhuang_victory</h2>
+        <h2 class="contact">contact
+            <h2 class="cc">
+              <a href="https://www.facebook.com/xujia.huang"><img src="https://github.com/StanleyHuangEE/wp2016/blob/gh-pages/facebook-logo.png?raw=true"></a>
+              <a href="https://www.instagram.com/stanleyhuang_victory"><img src="https://github.com/StanleyHuangEE/wp2016/blob/gh-pages/instagram-logo.png?raw=true"></a>
+            </h2>
+        </h2>
+        
       </p></p>
         <br><br>
           <span class="ref"><a href="https://www.facebook.com/xujia.huang" target="_blank">here is my Facebook.😎 </a></span><br>
         </br></br>
+<footer>
 <marquee onMouseOut="this.start()" onMouseOver="this.stop()" direction ="right" align="botton" scrollamount="6" behavior="alternate">
     <a href="https://github.com/StanleyHuangEE" target="_blank">
       Click to enter my Github☺️
     </a>
   </marquee>
+</footer>
+<script>
+var stateP=0;
+
+$(document).ready(function(){
+    $(".pp").slideUp();
+        $(".personalProfile").mouseover(function(){
+        $(".pp").slideDown();
+        });
+        $(".personalProfile").mouseout(function(){
+        $(".pp").slideUp();
+        });
+        });
+
+$(document).ready(function(){
+$(".cc").slideUp();
+$(".contact").mouseover(function(){
+$(".cc").slideDown();
+});
+$(".contact").mouseout(function(){
+$(".cc").slideUp();
+});
+
+});
+</script>
 
 </body>
 </head>
