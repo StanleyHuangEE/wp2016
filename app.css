@@ -7,6 +7,21 @@ div.title{
                         background:rgba(255, 235, 205,0.8);
 }
 
+h1.content{
+    padding-bottom:20px;
+        padding-left:40px;
+}
+
+.leftSideBar{
+    float:none;
+        width:auto;
+}
+
+@media screen and (min-width:480px){
+    .leftSideBar{float:left;width:160px;background:IndianRed;}
+
+}
+
 .personalProfile:hover{
   color:IndianRed;
 }
@@ -43,12 +58,12 @@ position:absolute;
 }
 
 .pp{
-    top:8.5em;
+    top:14.5em;
         left:25em;
 }
 
 .cc{
-    top:10.8em;
+    top:18.5em;
         left:25em;
 }
 
@@ -95,8 +110,9 @@ a:active{
 }
 
 footer{
-display:block;
-background:rgba(119, 136, 153,0.9);
-position:absolute;
-bottom:0;
+    display:block;
+        background:rgba(119, 136, 153,1);
+            position:relative;
+                height:100px;
+                    margin-top:0;
 }
