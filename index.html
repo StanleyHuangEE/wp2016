@@ -47,22 +47,22 @@
 var stateP=0;
 
 $(document).ready(function(){
-    $(".pp").slideUp();
+    $(".pp").slideUp(600,"swing");
         $(".personalProfile").mouseover(function(){
-        $(".pp").slideDown();
+        $(".pp").slideDown(600,"swing");
         });
         $(".personalProfile").mouseout(function(){
-        $(".pp").slideUp();
+        $(".pp").slideUp(600,"swing");
         });
         });
 
 $(document).ready(function(){
-$(".cc").slideUp();
+$(".cc").slideUp(800);
 $(".contact").mouseover(function(){
 $(".cc").slideDown();
 });
 $(".contact").mouseout(function(){
-$(".cc").slideUp();
+$(".cc").slideUp(800);
 });
 
 });
