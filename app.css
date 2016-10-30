@@ -11,7 +11,6 @@ h1.content{
     padding-bottom:20px;
         padding-left:40px;
 }
-
 .sidenav{
     height:100%;
     width:0;
@@ -22,6 +21,7 @@ h1.content{
     overflow-x:hidden;
     transition:0.6s;
     padding-top: 60px;
+    background-color:pink;
 }
 
 .sidenav a{
@@ -37,10 +37,18 @@ h1.content{
     color:gray;
 }
 
-@media screen and (min-width:480px){
-    .leftSideBar{float:left;width:160px;background:IndianRed;}
+.sidenav .closebtn {
+    position: absolute;
+        top: 0;
+            right: 25px;
+                font-size: 36px;
+                    margin-left: 50px;
+                    }
 
-}
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+    }
 
 .personalProfile:hover{
   color:IndianRed;
@@ -99,22 +107,22 @@ body.japan{
                     background-size: cover;
 }
 
-a:link {
+marquee a:link {
     color:green;
         background-color: transparent;
             text-decoration: none;
 }
-a:visited{
+marquee a:visited{
     color:green;
         background-color:transparent;
             text-decoration:none;
 }
-a:hover{
+marquee a:hover{
     color:red;
         background-color:transparent;
             text-decoration:underline;
 }
-a:active{
+marquee a:active{
     color:yellow;
         background:transparent;
             text-decoration:underline;

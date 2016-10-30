@@ -6,17 +6,20 @@
         <link rel="stylesheet" type="text/css" href="app.css">
             <link rel="shortcut icon" href="https://raw.githubusercontent.com/StanleyHuangEE/wp2016/master/badmintion.ico"></link>
                 <script src="./jq.js"></script>
-                    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 </head>
 
 <body class="japan">
   <div class="title">Stanley Huang</div>
-    <br>
-    
+    <div id="mySidenav" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <a>About</a>
+      <a>Contact</a>
+    </div>
+
+    <span style="font-size:30px;cursor:pointer" onclick="openNav()"> &#9776; open</span>
+
     <h1 class="content">
     <img src="https://github.com/StanleyHuangEE/wp2016/blob/master/badminton_champion.png?raw=true" style="float:left;margin:25px;width:200px;height:200px"><p><p>
-    </br>
-      <p>
         <h2 class="personalProfile">Personal Profile.<h2 class="pp">Name:黃旭嘉<br>Birth:09.04.1996</h2></h2>
         
         <h2 class="contact">contact
@@ -33,7 +36,6 @@
                 </a>
             </p>
         </div>
-      </p>
     </h1>
 <footer>
 <marquee onMouseOut="this.start()" onMouseOver="this.stop()" direction ="right" align="botton" scrollamount="6" behavior="alternate">
@@ -66,8 +68,15 @@ $(".cc").slideUp(800);
 });
 
 });
+
+function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+    }
+
+    function closeNav() {
+        document.getElementById("mySidenav").style.width = "0";
+        }
 </script>
 
-</body>
 </head>
 </html>
