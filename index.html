@@ -3,80 +3,44 @@
 <head>
     <title>黃旭嘉WebPage</title>
     <meta http-equiv="content-type" content="text/html; charset=utf-8">
-        <link rel="stylesheet" type="text/css" href="app.css">
-            <link rel="shortcut icon" href="https://raw.githubusercontent.com/StanleyHuangEE/wp2016/master/badmintion.ico"></link>
-                <script src="./jq.js"></script>
+    <link rel="stylesheet" type="text/css" href="app.css">
+    <link rel="shortcut icon" href="https://raw.githubusercontent.com/StanleyHuangEE/wp2016/master/badmintion.ico"></link>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script> 
+    <script src="./jq.js"></script>
 </head>
 
-<body class="japan">
-  <div class="title">Stanley Huang</div>
-    <div id="mySidenav" class="sidenav">
-      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+<body>
+
+  <div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
       <a>About</a>
       <a>Contact</a>
-    </div>
+  </div>
 
-    <span style="font-size:30px;cursor:pointer" onclick="openNav()"> &#9776; open</span>
+  <span class="opennav" onclick="openNav()"> &#9776;</span>
 
-    <h1 class="content">
-    <img src="https://github.com/StanleyHuangEE/wp2016/blob/master/badminton_champion.png?raw=true" style="float:left;margin:25px;width:200px;height:200px"><p><p>
-        <h2 class="personalProfile">Personal Profile.<h2 class="pp">Name:黃旭嘉<br>Birth:09.04.1996</h2></h2>
-        
-        <h2 class="contact">contact
-            <h2 class="cc">
-                701台南市大學路1號 TEL:886-6-275-7575
-            </h2>
-        </h2>
-       
-        <div>
-            <p class="sideFixed">
-                <a target="_blank" href="https://www.facebook.com/xujia.huang"><img src="https://github.com/StanleyHuangEE/wp2016/blob/gh-pages/facebook-logo.png?raw=true">
-                </a><br><br>
-                <a target="_blank" href="https://www.instagram.com/stanleyhuang_victory/"><img src="https://github.com/StanleyHuangEE/wp2016/blob/gh-pages/instagram-logo.png?raw=true">
-                </a>
-            </p>
-        </div>
-    </h1>
+  <div class="eins">
+    Hello World
+    <p>Welcome to My Innovation</p>
+  </div>
+ 
+  <div class="zwei">
+    Target
+    <p>Create a platform for myself to learn web design</p>
+  </div>
+
+  <div class="drei">
+    <p>
+     <b>Founder</b>  HsuChia Huang<br><br>
+     <img src="https://github.com/StanleyHuangEE/wp2016/blob/gh-pages/profile.jpg?raw=true" width="500px" height="500px">
+    </p>
+  </div> 
+  <div class="vier"></div>
+
 <footer>
-<marquee onMouseOut="this.start()" onMouseOver="this.stop()" direction ="right" align="botton" scrollamount="6" behavior="alternate">
-    <a href="https://github.com/StanleyHuangEE" target="_blank">
-      Click to enter my Github☺️
-    </a>
-  </marquee>
+    Copyright © 2016年 HSUCHIA_HUANG. All rights reserved.
 </footer>
 
-<script>
-var stateP=0;
-
-$(document).ready(function(){
-    $(".pp").slideUp(600,"swing");
-        $(".personalProfile").mouseover(function(){
-        $(".pp").slideDown(600,"swing");
-        });
-        $(".personalProfile").mouseout(function(){
-        $(".pp").slideUp(600,"swing");
-        });
-        });
-
-$(document).ready(function(){
-$(".cc").slideUp(800);
-$(".contact").mouseover(function(){
-$(".cc").slideDown();
-});
-$(".contact").mouseout(function(){
-$(".cc").slideUp(800);
-});
-
-});
-
-function openNav() {
-    document.getElementById("mySidenav").style.width = "250px";
-    }
-
-    function closeNav() {
-        document.getElementById("mySidenav").style.width = "0";
-        }
-</script>
 
 </head>
 </html>

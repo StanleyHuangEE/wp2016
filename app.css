@@ -7,10 +7,70 @@ div.title{
                         background:rgba(255, 235, 205,0.8);
 }
 
-h1.content{
-    padding-bottom:20px;
-        padding-left:40px;
+.eins{
+  background-size:cover;
+  height:100vh;
+  background-image:url("https://github.com/StanleyHuangEE/wp2016/blob/gh-pages/thinking.jpg?raw=true");
+  text-align:center;
+  padding:180px 0;
+  font-size:600%;
+  font-family: 'Merriweather Sans', sans-serif;
+  color:white;
 }
+
+.zwei{
+  background-size:cover;
+  height:100vh;
+  background-color:#5bb4e5;
+  text-align:center;
+  padding:100px 0;
+  font-size:500%;
+  font-family: 'Merriweather Sans', sans-serif;
+  color:white;
+  }
+
+.drei{
+  background-size:cover;
+  height:100vh;
+  background-color:white;
+  text-align:center;
+  padding:40px 0;
+  font-size:500%;
+  font-family: 'Merriweather Sans', sans-serif;
+  color:rgb(52,78,80);
+}
+
+
+.vier{
+  background-size:cover;
+  height:100vh;
+  background-color:#c4ebef;
+  text-align:center;
+  padding:100px 0;
+  font-size:500%;
+  font-family: 'Merriweather Sans', sans-serif;
+  color:rgb(52,78,80);
+}
+
+
+p{
+  font-size:50%;
+  padding:10px 0;
+}
+
+.drei img{
+    border-radius:50%;
+}
+
+.opennav{
+    font-size:22px;
+    cursor:pointer;
+    position:fixed;
+    left:22px;
+    top:20px;
+    color:rgb(220, 220, 220,0.4);
+}
+
 .sidenav{
     height:100%;
     width:0;
@@ -21,14 +81,14 @@ h1.content{
     overflow-x:hidden;
     transition:0.6s;
     padding-top: 60px;
-    background-color:pink;
+    background-color:#2f383f;
 }
 
 .sidenav a{
     padding:8px 8px 8px 32px;
     text-decoration:none;
     font-size:25px;
-    color:gray;
+    color:#979c9f;
     transition:0.6s;
     display:block;
 }
@@ -51,21 +111,21 @@ h1.content{
     }
 
 .personalProfile:hover{
-  color:IndianRed;
+    color:IndianRed;
 }
 
 .contact:hover{
-  color:IndianRed ;
+    color:IndianRed ;
 }
 
 .personalProfile, .contact{
     text-align:left;
-        font-size:200%;
-            font-weight:bold;
-                font-family:'Poiret One',cursive;
-                    color:gray;
-                        background:rgba(255, 235, 205,0.7);
-width:600px;
+    font-size:200%;
+    font-weight:bold;
+    font-family:'Poiret One',cursive;
+    color:gray;
+    background:rgba(255, 235, 205,0.7);
+    width:600px;
 }
 
 .personalProfile{
@@ -74,72 +134,68 @@ width:600px;
 
 .pp, .cc{
     text-align:center;
-      font-size:150%;
-        color:IndianRed;
-font-family:fantasy;
-margin-top:0;
-position:absolute;
+    font-size:150%;
+    color:IndianRed;
+    font-family:fantasy;
+    margin-top:0;
+    position:relative;
 }
-
-.pp{
-    top:9.5em;
-        left:25em;
-}
-
-.cc{
-    top:13.5em;
-        left:25em;
-}
-
 
 span.ref{
     margin-right:10px;
-        border-style:inset;
-            background-color:#FFF0F5;
-                font-size:18px;
+    border-style:inset;
+    background-color:#FFF0F5;
+    font-size:18px;
 }
 
 body.japan{
     margin:0px;
-        padding:0px;
-            background-color:black;
-                background:#ffffff url(https://goo.gl/Vt2bro) center center fixed no-repeat;
-                    background-size: cover;
+    padding:0px;
+    background-color:black;
+    background:#ffffff url(https://goo.gl/Vt2bro) center center fixed no-repeat;
+    background-size: cover;
 }
 
 marquee a:link {
     color:green;
-        background-color: transparent;
-            text-decoration: none;
+    background-color: transparent;
+    text-decoration: none;
 }
 marquee a:visited{
     color:green;
-        background-color:transparent;
-            text-decoration:none;
+    background-color:transparent;
+    text-decoration:none;
 }
 marquee a:hover{
     color:red;
-        background-color:transparent;
-            text-decoration:underline;
+    background-color:transparent;
+    text-decoration:underline;
 }
 marquee a:active{
     color:yellow;
-        background:transparent;
-            text-decoration:underline;
+    background:transparent;
+    text-decoration:underline;
 }
 
 .sideFixed{
     position:fixed;
-        bottom:10em;
-            right:0; 
+    bottom:10em;
+    right:0; 
+}
+
+body{
+    margin:0;
+    padding:0;
 }
 
 footer{
     display:block;
-        background:rgba(255, 248, 220,0.9);
-            position:absolute;
-                height:80px;
-                    margin-top:0;
-                        bottom:0;
-    width:100%
+    background:white;
+    position:relative;
+    height:60px;
+    margin-top:0;
+    bottom:0;
+    width:100%;
+    margin:0;
+    padding:10px;
 }
